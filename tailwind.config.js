@@ -14,6 +14,19 @@ export default {
         slate: {
           950: '#020617',
         }
+      },
+      animation: {
+        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'spin-slow': 'spin 8s linear infinite',
+        'scan-down': 'scan-down 3s linear infinite',
+      },
+      keyframes: {
+        'scan-down': {
+          '0%': { top: '0%', opacity: '0' },
+          '10%': { opacity: '0.5' },
+          '90%': { opacity: '0.5' },
+          '100%': { top: '100%', opacity: '0' },
+        }
       }
     },
   },
