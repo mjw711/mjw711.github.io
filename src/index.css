@@ -12,4 +12,15 @@
   .tech-font {
     font-family: 'Share Tech Mono', monospace;
   }
+
+  .radar-sweep {
+    background: conic-gradient(from 0deg, transparent 0deg, rgba(34, 211, 238, 0.1) 60deg, rgba(34, 211, 238, 0.4) 90deg, transparent 91deg);
+    animation: radar-spin 4s linear infinite;
+    border-radius: 50%;
+  }
+
+  @keyframes radar-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
 }
