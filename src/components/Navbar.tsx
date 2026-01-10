@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
-import { PHONE_NUMBER } from '@/constants';
+import { PHONE_NUMBER } from '../constants';
 import SubLogo from './SubLogo';
 
 const Navbar: React.FC = () => {
